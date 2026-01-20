@@ -161,7 +161,7 @@ const About = () => {
           <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
             Let's discuss how we can bring exceptional live music to your next event.
           </p>
-          <Link to="/contact" className="cta-primary">
+          <Link to="/contact#top" className="cta-primary">
             Get in Touch
           </Link>
         </div>
