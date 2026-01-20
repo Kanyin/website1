@@ -1,26 +1,30 @@
-// Catch unhandled errors globally
-window.addEventListener("error", (event) => {
-  console.error("Global error:", event.error);
-  alert("An unexpected error occurred: " + event.error.message);
-});
-
-window.addEventListener("unhandledrejection", (event) => {
-  console.error("Unhandled promise rejection:", event.reason);
-  alert("Promise rejected: " + event.reason);
-});
-
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import { ErrorBoundary } from "./ErrorBoundary";
 
-const root = ReactDOM.createRoot(document.getElementById("root")!);
-root.render(
-  <React.StrictMode>
-    <ErrorBoundary>
-      <App />
-    </ErrorBoundary>
-  </React.StrictMode>
-);
+// Global error logging (safe for production)
+window.addEventListener("error", (event) => {
+  console.error("Global error:", event.error);
+});
+
+window.addEventListener("unhandledrejection", (event) => {
+  console.error("Unhandled promise rejection:", event.reason);
+});
+
+const rootElement = document.getElementById("root");
+
+if (!rootElement) {
+  console.error("Root element not found");
+} else {
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(
+    <React.StrictMode>
+      <ErrorBoundary>
+        <App />
+      </ErrorBoundary>
+    </React.StrictMode>
+  );
+}
 
