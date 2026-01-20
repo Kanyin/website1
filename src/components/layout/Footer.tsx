@@ -42,10 +42,10 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
                 <a
-                  href="mailto:hello@akilomusic.com"
+                  href="mailto:bookings@akilomusic.com"
                   className="hover:text-primary transition-colors duration-300"
                 >
-                  hello@akilomusic.com
+                  bookings@akilomusic.com
                 </a>
               </li>
               <li>
