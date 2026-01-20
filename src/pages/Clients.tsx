@@ -139,7 +139,7 @@ const Clients = () => {
           <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
             Experience the Akiló difference at your next event.
           </p>
-          <Link to="/contact" className="cta-primary">
+          <Link to="/contact#top" className="cta-primary">
             Request a Consultation
           </Link>
         </div>
