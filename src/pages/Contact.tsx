@@ -58,6 +58,7 @@ const Contact = () => {
 
   return (
     <Layout>
+      <div id="top" />
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-24">
         <div className="max-w-7xl mx-auto px-6">
