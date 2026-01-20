@@ -178,7 +178,7 @@ const Services = () => {
             film score for your cocktail hour? Classical pieces reimagined 
             with a jazz sensibility? We make it happen.
           </p>
-          <Link to="/contact" className="cta-primary">
+          <Link to="/contact#top" className="cta-primary">
             Customize Your Performance
           </Link>
         </div>
