@@ -8,7 +8,7 @@ const eventTypes = [
   "Corporate Event",
   "Private Party",
   "Gala",
-  "Concert",
+  "Festival",
   "Other",
 ];
 
@@ -91,10 +91,10 @@ const Contact = () => {
                 <div>
                   <p className="text-foreground font-medium mb-1">Email</p>
                   <a
-                    href="mailto:hello@akilomusic.com"
+                    href="mailto:bookings@akilomusic.com"
                     className="text-muted-foreground hover:text-primary transition-colors text-sm"
                   >
-                    hello@akilomusic.com
+                    bookings@akilomusic.com
                   </a>
                 </div>
               </div>
@@ -117,7 +117,8 @@ const Contact = () => {
                   <p className="text-muted-foreground text-sm">
                     New York City
                     <br />
-                    Available Worldwide
+                    New Jersey
+                    Philadelphia
                   </p>
                 </div>
               </div>
