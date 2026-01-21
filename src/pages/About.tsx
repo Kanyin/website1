@@ -4,24 +4,22 @@ import aboutImage from "@/assets/about-ensemble.jpg";
 
 const musicians = [
   {
-    name: "Elena Vasquez",
-    instrument: "Violin, Artistic Director",
-    bio: "Grammy-nominated violinist with 20 years of international touring experience.",
+    name: "Jalin",
+    instrument: "Saxophone Player",
+    bio: "Has toured with several performers of critical acclaim, including Gloria Gaynor",
+    image: "/musicians/Jalin.png",
   },
   {
-    name: "Marcus Chen",
-    instrument: "Cello",
-    bio: "Former principal cellist with the Berlin Philharmonic. Passionate about musical innovation.",
+    name: "Chris",
+    instrument: "Drums",
+    bio: "Versatile player who hails from New Jersey.",
+    image: "/musicians/Chris.png",
   },
   {
-    name: "Sophia Williams",
-    instrument: "Piano",
-    bio: "Juilliard-trained pianist specializing in classical, jazz, and contemporary arrangements.",
-  },
-  {
-    name: "David Okonkwo",
-    instrument: "Viola",
-    bio: "Versatile performer and arranger with a background in film scoring and chamber music.",
+    name: "Paul",
+    instrument: "Bass",
+    bio: "Versatile performer and bassist",
+    image: "/musicians/Paul.png",
   },
 ];
 
