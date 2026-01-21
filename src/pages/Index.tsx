@@ -3,7 +3,7 @@ import Hero from "@/components/home/Hero";
 import Introduction from "@/components/home/Introduction";
 import ServiceHighlights from "@/components/home/ServiceHighlights";
 // import Testimonials from "@/components/home/Testimonials";
-import VideoCarousel from "@/components/home/VideoCarousel";
+//import VideoCarousel from "@/components/home/VideoCarousel";
 import CallToAction from "@/components/home/CallToAction";
 
 const Index = () => {
@@ -15,7 +15,8 @@ const Index = () => {
       {/*
       <Testimonials />
       */}
-      <VideoCarousel />
+      {/* <VideoCarousel />
+      */}
       <CallToAction />
     </Layout>
   );
